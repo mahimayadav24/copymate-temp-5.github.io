@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Montserrat__Bold;
+    src: url('../Fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat__Medium;
+    src: url('../Fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
+.img__div1 img {
+    width: 100%;
+}
+
+.img__div1 {
+    position: relative;
+    top: 0;
+}
+
+.text__div1 {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+}
+
+.sect1 {
+    height: 100vh;
+}
+
+.text__content1 h2 {
+    font-size: calc(20pt + 0.15vw);
+    color: rgba(31, 30, 27, 1);
+    font-family: 'Montserrat__Bold';
+    letter-spacing: 0.03em;
+}
+
+.gry__text1 {
+    background: #FFFFFF;
+    opacity: 0.9;
+    padding: 25px 100px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-left: -6.4rem;
+}
+
+.text__content1 h4 {
+    font-size: calc(16pt + 0.15vw);
+    font-family: 'Montserrat__Bold';
+    letter-spacing: 0.03em;
+    color: rgba(58, 58, 58, 1);
+}
+
+.text__content1 p {
+    font-family: 'Montserrat__Medium';
+    font-size: calc(12pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+.text__content1 .red {
+    color: rgba(255, 8, 12, 1);
+}
+
+.text__content1 span {
+    font-family: 'Montserrat__Bold';
+}
+
+.text__content1 h5 {
+    font-size: calc(14pt + 0.15vw);
+    color: #545253;
+    font-family: 'Montserrat__Bold';
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+    text-align: center;
+    margin-left: -8.4rem;
+}
+
+.text__content1 h5 span {
+    color: #f2a000;
+}
+
+.button1 {
+    position: absolute;
+    left: -233px;
+}
+
+.button1 a {
+    border: none;
+    background-color: rgba(36, 36, 36, 1);
+    padding: 20px 30px;
+    color: rgba(253, 252, 251, 1);
+    font-size: calc(15pt + 0.15vw);
+    font-family: 'Montserrat__Bold';
+    border-top-right-radius: 30px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-decoration: none;
+}
+
+.button1 a:hover {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-color: rgba(37, 93, 20, 0.388);
+    color: #FFFFFF;
+    -webkit-box-shadow: 0px 12px 20px rgba(66, 66, 66, 0.2);
+    box-shadow: 0px 12px 20px rgba(66, 66, 66, 0.2);
+    border: 1px solid rgba(37, 93, 20, 0.388);
+}
+
+.fa-long-arrow-alt-right {
+    vertical-align: middle;
+    padding: 0px 10px;
+}
+
+@media screen and (max-width: 1368px) {
+    .button1 {
+        left: -200px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .button1 {
+        left: -200px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .text__content1 h2 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .gry__text1 {
+        padding: 20px;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .text__content1 h4 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content1 p {
+        font-size: calc(10pt + 0.15vw);
+    }
+    .text__content1 h5 {
+        font-size: calc(12pt + 0.15vw);
+        margin-left: 0rem;
+    }
+    .button1 {
+        left: -165px;
+    }
+    .button1 a {
+        font-size: calc(12pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text__content1 h4 {
+        margin: 8px 0px 0px 0px !important;
+    }
+    .text__content1 p {
+        margin: 8px 0px 0px 0px !important;
+    }
+    .button1 a {
+        padding: 20px;
+    }
+    .button1 {
+        left: -125px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text__content1 h2 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content1 h4 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content1 p {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content1 h5 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .button1 a {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__div1 {
+        left: 10px;
+    }
+    .button1 {
+        left: -10px;
+        margin: 0px !important;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .text__content1 h2 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .text__content1 h4 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .text__content1 p {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .text__content1 h5 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .button1 a {
+        font-size: calc(6pt + 0.15vw);
+        padding: 10px;
+    }
+    .gry__text1 {
+        padding: 10px;
+    }
+}
